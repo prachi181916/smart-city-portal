@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # 🏙️ Smart City Portal
 
 A comprehensive Django-based web application for smart city data management, visualization, and analytics. This portal provides real-time monitoring of city services, weather data, transit information, and urban statistics.
