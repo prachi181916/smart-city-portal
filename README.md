@@ -1,33 +1,44 @@
-# Smart City Portal
+cat > README.md << 'EOF'
+# 🏙️ Smart City Portal
 
-A comprehensive Django-based portal for smart city data management and visualization.
+A comprehensive Django-based web application for smart city data management, visualization, and analytics. This portal provides real-time monitoring of city services, weather data, transit information, and urban statistics.
 
-## Features
+![Smart City Portal](https://img.shields.io/badge/Platform-Smart%20City-blue)
+![Django](https://img.shields.io/badge/Django-4.2.7-green)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
 
-- Real-time data acquisition from various city services
-- Interactive dashboards for transit, weather, and city services
-- RESTful APIs for data access
-- Celery for background task processing
-- Docker containerization
+## 🌟 Features
 
-## Quick Start
+### 📊 Dashboards
+- **Transit Dashboard** - Real-time public transportation monitoring
+- **Weather Dashboard** - Weather conditions and forecasts
+- **Services Dashboard** - City services request tracking
+- **Statistics Dashboard** - Demographic and urban development data
 
-1. Clone the repository
-2. Copy `.env.example` to `.env` and configure variables
-3. Run: `docker-compose up --build`
-4. Access the application at `http://localhost:8000`
+### 🔧 Technical Features
+- **RESTful API** - Complete API for data access
+- **Real-time Data Processing** - Celery background tasks
+- **PostgreSQL Database** - Robust data storage
+- **Redis Caching** - High-performance caching
+- **Docker Containerization** - Easy deployment
+- **Responsive Design** - Mobile-friendly interface
 
-## Project Structure
+### 👨‍💻 Admin Features
+- **Django Admin Panel** - Full database management
+- **Custom Login Interface** - Beautiful admin authentication
+- **Database Viewer** - phpMyAdmin-like interface for PostgreSQL
+- **User Management** - Complete user administration
 
-- `apps/` - Django applications
-- `config/` - Project configuration
-- `scripts/` - Data processing scripts
-- `static/` - Static files
-- `templates/` - HTML templates
-- `data/` - Data storage
+## 🚀 Quick Start
 
-## API Endpoints
+### Prerequisites
+- Docker and Docker Compose
+- Git
 
-- `/api/data/` - Data API
-- `/dashboard/` - Interactive dashboards
-- `/admin/` - Django admin
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <your-repository-url>
+   cd smart-city-portal
