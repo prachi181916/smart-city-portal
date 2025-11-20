@@ -44,18 +44,18 @@ A comprehensive Django-based web application for smart city data management, vis
 2. **Start Application**
    ```bash
    docker-compose up --build -d
-3. **🌐 Main Website: **
+3. 🌐 Main Website:
    ```bash
    https://glorious-space-dollop-wrpr5wqqvwrp257pj-8000.app.github.dev/
 
-4. **📊 Database Viewer: **
+4. 📊 Database Viewer:
    ```bash
    https://glorious-space-dollop-wrpr5wqqvwrp257pj-8000.app.github.dev/mentor/
 
-5. ⚙️ Django Admin: **
+5. ⚙️ Django Admin:
    ```bash
    https://glorious-space-dollop-wrpr5wqqvwrp257pj-8000.app.github.dev/admin/
 
-6. **🗂️ pgAdmin: **
+6. 🗂️ pgAdmin:
    ```bash
    https://glorious-space-dollop-wrpr5wqqvwrp257pj-5050.app.github.dev
